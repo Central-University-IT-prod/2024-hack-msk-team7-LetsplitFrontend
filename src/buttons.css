@@ -1,0 +1,37 @@
+.button {
+    border-radius: 24px;
+    height: fit-content;
+    padding: 12px;
+    text-decoration: none;
+    transition: ease-in-out 150ms;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-raw{
+    text-decoration: none;
+    transition: ease-in-out 150ms;
+    cursor: pointer;
+    user-select: none;
+}
+.button-raw:hover,
+.button:hover {
+    filter: brightness(70%);
+}
+.button.accent{
+    background-color: var(--accent);
+    color: var(--background);
+}
+
+.button-transparent{
+    text-decoration: none;
+    transition: ease-in-out 150ms;
+    cursor: pointer;
+    user-select: none;
+    filter: opacity(0%);
+}
+
+.button-transparent:hover{
+    filter: opacity(100%);
+}
+
